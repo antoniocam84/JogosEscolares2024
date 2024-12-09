@@ -4,6 +4,7 @@
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Tamanho mínimo 150px por imagem */
     gap: 10px; /* Espaçamento entre as imagens */
     padding: 20px;
+    justify-content: center;
 }
 
 /* Estilo das imagens */
