@@ -8,8 +8,8 @@
 
 /* Estilo das imagens */
 .foto-container img {
-    width: 300px; /* Tamanho fixo das imagens */
-    height: 300px; /* Tamanho fixo das imagens */
+    width: 100px; /* Tamanho fixo das imagens */
+    height: 100px; /* Tamanho fixo das imagens */
     object-fit: cover; /* Ajusta a imagem sem distorção */
 }
 
