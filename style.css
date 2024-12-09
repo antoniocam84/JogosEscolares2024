@@ -14,7 +14,7 @@
 }
 
 /* Responsividade */
-@media (max-width: 300px) {
+@media (max-width: 50px) {
     .foto-container img {
         width: 80px; /* Reduz o tamanho das imagens em telas menores */
         height: 80px;
