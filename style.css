@@ -1,4 +1,36 @@
-.container-imagem img { 
-    
-    max-height: 500px; min-height: 500px; 
+/* Resetando a margem e o padding das imagens e do body */
+body, h1, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Centralizando o título */
+center h1 {
+    margin: 10px 0;
+}
+
+/* Container que envolve as imagens */
+.foto-container {
+    display: flex;
+    flex-wrap: wrap; /* Para as imagens se ajustarem ao espaço disponível */
+    justify-content: center; /* Alinha as imagens no centro */
+    gap: 10px; /* Espaçamento entre as imagens */
+    margin-top: 20px;
+}
+
+/* Estilo para as imagens */
+.foto-container img {
+    width: 150px;  /* Definindo um tamanho fixo para as imagens */
+    height: 150px; /* Definindo um tamanho fixo para as imagens */
+    object-fit: cover; /* Para as imagens se ajustarem bem dentro do tamanho */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra para as imagens */
+}
+
+/* Estilo para a div de imagens */
+#imagens {
+    display: flex;
+    flex-wrap: wrap; /* As imagens vão se ajustar automaticamente */
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre as imagens */
 }
