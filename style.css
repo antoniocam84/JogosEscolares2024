@@ -14,3 +14,7 @@
     object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
     border-radius: 8px; /* Bordas arredondadas (opcional) */
 }
+
+body{
+    background-color: aquamarine;
+}
