@@ -5,6 +5,7 @@
     gap: 10px; /* Espaçamento entre as imagens */
     padding: 20px;
     justify-content: center;
+    background-color: aquamarine;
 }
 
 /* Estilo das imagens */
@@ -15,6 +16,3 @@
     border-radius: 8px; /* Bordas arredondadas (opcional) */
 }
 
-body{
-    background-color: aquamarine;
-}
