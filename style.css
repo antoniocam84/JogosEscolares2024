@@ -1,6 +1,27 @@
+/* Container para as imagens */
+.foto-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que as imagens quebrem para a linha seguinte */
+    justify-content: space-between; /* Espaçamento entre as imagens */
+    gap: 10px; /* Distância entre as imagens */
+}
 
+/* Estilo das imagens */
+.foto-container img {
+    width: 100px; /* Tamanho fixo das imagens */
+    height: 100px; /* Tamanho fixo das imagens */
+    object-fit: cover; /* Ajusta a imagem sem distorção */
+}
 
-img {
+/* Responsividade */
+@media (max-width: 20px) {
+    .foto-container img {
+        width: 80px; /* Reduz o tamanho das imagens em telas menores */
+        height: 80px;
+    }
+}
+
+div#imagens img {
     width: 800px!important;
     height: 600px!important;
     }
